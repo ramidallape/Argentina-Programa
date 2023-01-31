@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Ramiro Stubbia</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://kit.fontawesome.com/6fe1c07af3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="formul.js"></script>
+    <header class="header">
+        <nav class="nav">
+            <button class="nav-toggle" aria-label="Abri menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"><a class="nav-menu-link" href="#principal"> Home</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link" href="#estudios"> Estudios</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link" href="#trabajos"> Trabajos</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link" href="#competencias">Competencias</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link" href="#contacto"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="imagen">
+        <img src="./fotoperfil.jpg" alt="Foto perfil">
+        </div>
+        <section id="principal">
+            <h1>Ramiro Stubbia Dallape</h1>
+            <div id="nacimiento">
+                <h2>Fecha de nacimiento: 12/02/1994</h2>
+            </div>
+            <div id="direccion">
+                <h2>Direccion: Aguinaga 1402 Chacras de Coria</h2>
+            </div>
+        </section>
+        <section id="estudios">
+            <h2>Estudios</h2>
+            <div class="estudios">
+                <div class="estudio">
+                    <h3>Primario</h3>
+                    Realizado en PS-078 Instituto “San
+Pablo” C.U.E Nº 5000938-00
+                </div>
+                <div class="estudio">
+                    <h3>Secundario</h3>
+                    Realizado en PS-078 Instituto “San
+Pablo” C.U.E Nº 5000938-00, con título de
+ayudante de laboratorio y medio ambiente
+(Modalidad: Ciencias Naturales Salud y
+Ambiente con Orientación en Ciencia y la
+Formación Profesional).
+                </div>
+                <div class="estudio">
+                    <h3>Universitario</h3>
+                    Cursado 1° y 2° año de
+Ingeniería Agronómica en
+Facultad de Ciencias Agrarias.
+·Actualmente cursando 3° año
+de Enología y Viticultura en la
+Facultad de Ciencias Agrarias.
+                </div>
+
+            </div>
+        </section>
+        <section>
+        <section id="trabajos">
+            <h2>Experiencia laboral</h2>
+            <div class="trabajos">
+                <div class="trabajo">
+                    <h3>Municipalidad de Lujan de Cuyo</h3>
+                    <p>Cargo: Administrativo</p>
+                    <span id="hideText" class="hideText">
+                        <p>Área: Polideportivo Municipal Hipólito Irigoyen.
+                            Tareas desempeñadas: Tareas administrativas,atención al público, adquisición de solicitudes de pedido.
+                            Fecha de ingreso: 01/03/2013
+                            Fecha de egreso: 05/01/2016</p>
+                    </span>
+                    <button class="readMore_btn" id="readMore_btn">Ver mas</button>
+                </div>
+                <div class="trabajo">
+                    <h3>Chacras Pets</h3>
+                   <p>Cargo: Encargado</p>
+                    <p>Tareas desempeñadas: Atención al público, control de
+                        pedidos, pago a proveedores, gestion de otras sucursales.
+                        Fecha ingreso: 05/12/20
+                        Actualmente trabajando.</p>
+                
+                </div>
+            </div>
+            </section>
+        <section id="competencias">
+            <h2>Competencias</h2>
+            <ul>
+                <li>Compromiso</li>
+                <li>Adaptabilidad al cambio</li>
+                <li>Orientación al cliente</li>
+                <li>Liderazgo</li>
+                <li>Aprendizaje continuo</li>
+                <li>Responsabilidad</li>
+            </ul>
+        </section>
+        <section id="contacto"> 
+            <div class="container-form">
+                <div class="info-form">
+                    <h2>Contactame</h2>
+                    <p>Si queres contactarte conmigo te dejo mis datos, o completando el siguiente formulario me comunicare a la brevedad.</p>
+                    <h3><i class="fa-solid fa-phone"></i> 2617217480</h3>
+                    <h3><i class="fa-sharp fa-solid fa-envelope"></i> ramidallape12@gmail.com</h3>
+                    <h3><i class="fa-solid fa-location-dot"></i> Mendoza, Argentina</h3>
+                </div>
+                <form autocomplete="off">
+                    <input type="text" name="nombre" placeholder="Tu Nombre" class="campo" id="tunombre">
+                    <input type="emal" name="email" placeholder="Tu Email" class="campo" id="email">
+                    <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+                    <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar" id="btn-enviar">
+                </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
+
